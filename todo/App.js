@@ -23,7 +23,7 @@ const App = () => {
           <Text
             style={{
               color: COLORS.primary,
-              fontWeight: '900',
+              fontWeight: 'bold',
               fontSize: 20,
               textDecorationLine: todo?.completed ? 'line-through' : 'none',
             }}>
